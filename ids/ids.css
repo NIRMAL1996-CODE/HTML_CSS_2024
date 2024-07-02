@@ -1,0 +1,38 @@
+/* style div */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: pink;
+    display: flex;
+    /* flex is used for take the containers side by side */
+}
+/* this is use for all div with same properties*/
+
+div{ 
+    background-color: rgb(176, 176, 239);
+    width: 50;
+    height: 20%;
+    font-size: xx-large;
+    font-family: 'Gill Sans';
+} 
+
+/* but if you wn different properties for different div u can use inline css
+or USE IDs and for it use #  */
+
+#box1{
+   background-color: rgb(119, 119, 231);
+}
+#box2{
+    background-color: rgb(19, 19, 209);
+ }
+ #box3{
+    background-color: rgb(119, 119, 231);
+ }
