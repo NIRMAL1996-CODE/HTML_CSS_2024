@@ -1,0 +1,35 @@
+/* style div */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: pink;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+}
+main{
+    display: flex;
+}
+#box1{
+   background-color: rgb(119, 119, 231);
+  
+}
+#box2{
+    background-color: rgb(19, 19, 209);
+   
+ }
+ #box3{
+    background-color: rgb(235, 98, 130);
+   
+ }
+ 
