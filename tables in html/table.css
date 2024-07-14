@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 50%;
+    height: 50%;
+}
+
+table
+{
+   font-family: Arial, sans-serif;
+   border-collapse: collapse ;
+   width: 100%;
+   
+}
+td, th{
+   border: 1px solid #ddd;
+   text-align: left;
+   padding: 8px;
+   background-color: rgb(234, 168, 179);
+}
+
+/* tr:nth-child(even){background-color: rgb(174, 223, 223);} */
+/* table, td, th{ 
+    border: 1px solid;
+    border-radius: 10x;
+}*/
+
