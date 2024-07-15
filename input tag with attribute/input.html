@@ -1,0 +1,57 @@
+<!-- create a submit form using html -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userdetails</title>
+ </head>
+ <body>
+    <h1>Enter your details</h1>
+    <form action="">
+       <label for="">FIRST NAME:</label>
+        <input type="text" name="firstname">
+        <br><br>
+       <label for=""> SECOND NAME:</label> 
+       <input type="text" name="secondname">
+       <br><br>
+       <label for="">PLACE:</label>
+       <input type="text">
+       <br><br>
+       <label for="">DOB:</label>
+       <input type="date">
+       <br><br>
+       <label for="">EMAIL</label>
+       <input type="email">
+       <label for="">PASSWORD</label>
+       <input type="password">
+       <br><br>
+       <p>Enter your Tshirt size</p>
+       <label for="small">Small</label>
+       <input id="small" name="Tshirt" type="radio" value="small">
+       <label for="medium">Medium</label>
+       <input id="medium" name="Tshirt" type="radio" value="medium">
+       <label for="large">Large</label>
+       <input id="large" name="Tshirt" type="radio" value="large">
+       <br><br>
+       <label for="color">pick a color</label>
+       <input id="color" type="color">
+       <br>
+
+       <label for="cars">choose a car</label>
+       <select name="car" id="cars">
+       <option value="volvo">volvo</option>
+       <option value="fiat">fiat</option>
+       <option value="ford">ford</option>
+       <option value="audi">audi</option>
+    </select>
+
+    <label for="aboutyourself">TELL ABOUT YOURSELF</label>
+    <textarea name="aboutyourself" id="aboutyourself" cols="30" rows="10"></textarea>
+
+       <input type="reset">
+       <input type="submit">
+
+    </form>
+ </body>
+ </html>
