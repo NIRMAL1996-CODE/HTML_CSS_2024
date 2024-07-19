@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.icon-bar{
+    width: 90px;
+    background-color: palegoldenrod;
+}
+
+.icon-bar a{
+    display: block;
+    text-align:center ;
+    padding: 16px;
+    transition:all;
+    color: pink;
+    font-size: 36px;
+}
+
+.icon-bar a:hover{
+    background-color: rgb(217, 236, 189);
+}
