@@ -1,0 +1,44 @@
+
+
+.flipcard{
+    height: 100%;
+    width: 100%;
+    background-color:transparent;
+    border: 1px solid black;
+    perspective: 1000px;
+
+}
+.innercard{
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 1s;
+transform-style:preserve-3d ;
+}
+
+.flipcard:hover .innercard {
+    transform: rotate(180deg);
+}
+
+
+.frontside, .backside{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+
+}
+
+.frontside{
+ background-color: rgb(203, 248, 203);
+ color: black;
+
+}
+
+.backside{
+
+    color: black;
+    background-color: rgb(240, 168, 240);
+    transform: rotate(180deg);
+}
