@@ -1,0 +1,32 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+   background-color: black;
+   overflow: hidden;
+}
+/* .active{
+    background-color: rgb(241, 222, 13);
+} */
+
+.navbar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+   padding:0 10px;
+   text-decoration: none;
+   margin-right: 10px;
+}
+.fa-solid {
+    margin-right: 8px;
+}
+
+.navbar a:hover{
+background-color: rgb(241, 222, 13);
+}
