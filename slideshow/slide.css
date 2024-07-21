@@ -1,0 +1,39 @@
+/* unable to create */
+*{
+   box-sizing: border-box;
+}
+
+ .container{
+    margin: 10px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+} 
+.image{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: rgb(34, 41, 41);
+    font-size: medium;
+    width: 100%;
+    text-align: center;
+    
+}
+.numbertext{
+    color: rgb(232, 236, 232);
+    font-size: medium;
+    padding: 8px 12px;
+    position: absolute;
+}
+
