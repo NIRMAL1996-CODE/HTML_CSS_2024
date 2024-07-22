@@ -1,0 +1,31 @@
+<!-- create tabs usinf html, css and js -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABS</title>
+    <link rel="stylesheet" href="tab.css">
+ </head>
+ <body>
+    <h1>TABS</h1>
+    <div class="tab">
+        <button class="btn" onclick="openCity(event, 'London')">London</button>
+        <div  id="London" class="tabcontent">
+            <h3>LONDON</h3>
+            <p>London is a vibrant, historic city known for its iconic landmarks like Big Ben and the Tower of London. It offers a rich cultural scene and diverse attractions.</p>
+        </div>
+        <button class="btn" onclick="openCity(event, 'Paris')">Paris</button>
+        <div  id="Paris" class="tabcontent">
+            <h3>PARIS</h3>
+            <p>Paris, the City of Light, is renowned for its art, fashion, and landmarks like the Eiffel Tower and Louvre Museum. It's a hub of romance and culture.</p>
+        </div>
+        <button class="btn" onclick="openCity(event, 'America')">America</button>
+        <div id="America" class="tabcontent">
+            <h3>AMERICA</h3>
+            <p>The U.S. is a diverse country with a rich cultural tapestry, spanning a variety of landscapes from bustling cities to natural wonders. It's known for its innovation and global influence.</p>
+        </div>
+    </div>
+    <script src="tab.js"></script>
+ </body>
+ </html>
