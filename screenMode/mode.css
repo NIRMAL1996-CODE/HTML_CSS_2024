@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+#heading{
+    color: rgb(238, 196, 118);
+}
+
+.dark{
+    background-color: black;
+    color:white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
