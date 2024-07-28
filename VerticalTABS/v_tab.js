@@ -25,6 +25,6 @@
             }
             
         document.getElementById(this.getAttribute('data-tab')).classList.add('active'); 
-    });
+     });
 
 }
