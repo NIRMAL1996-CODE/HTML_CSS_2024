@@ -32,3 +32,6 @@ background-color: #f0f0f0
 .container button:hover{
     background-color: rgb(167, 165, 165);
 }
+.content .active{
+    display: block;
+}
