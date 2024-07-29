@@ -9,14 +9,20 @@
     height: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
+    position: relative; 
+    flex-direction: column;
 } 
+.slide
+{
+    /* display: none; */
+    margin-bottom: 20px; 
+    position: relative;
+}
 .image{
     height: 200px;
     width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
 }
 h1{
     display: flex;
@@ -24,16 +30,22 @@ h1{
     align-items: center;
 }
 .text{
-    color: rgb(34, 41, 41);
-    font-size: medium;
-    width: 100%;
-    text-align: center;
+  color: white; 
+  padding: 10px; 
+  position: absolute; 
+  bottom: 0; 
+  width: 100%;
+  font-size: medium;
+  text-align: center;
+  
     
 }
 .numbertext{
+    top: 0;
     color: rgb(232, 236, 232);
     font-size: medium;
     padding: 8px 12px;
     position: absolute;
 }
+
 
